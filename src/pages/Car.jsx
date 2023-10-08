@@ -45,39 +45,40 @@ const Home = () => {
           </div>
           <div className="intro">
             <p>
-              Students often struggle to think of ways to start introductions
-              because they may feel overwhelmed by the need to effectively
-              summarize and contextualize their topic, capture the reader’s
-              interest, and provide a roadmap for the rest of the paper, all
-              while trying to create a strong first impression.{" "}
+              Owning a house is a huge responsibility, and there are many little
+              things you have to keep track of. Since there are many things that
+              need to be maintained in a house - we have listed five interesting
+              and important ones. They include Overhanging branches, Flushing
+              the Water Heater, Clean Gutters, Driveway Sealing, and Dryer Vent
+              Cleaning.{" "}
             </p>
           </div>
           <div className="boxes">
-            <a href="#tree">
+            <a href="#wheel">
               <div className="box">
                 <GiCartwheel />
                 Wheel Alignment
               </div>
             </a>
-            <a href="#flush">
+            <a href="#brake">
               <div className="box">
                 <AiOutlineCar />
                 Brakes and Rotors
               </div>
             </a>
-            <a href="#gutters">
+            <a href="#power">
               <div className="box">
                 <GiSteeringWheel />
                 Power Steering
               </div>
             </a>
-            <a href="#seal">
+            <a href="#belt">
               <div className="box">
                 <GiBeltArmor />
                 Timing Belt
               </div>
             </a>
-            <a href="#vent">
+            <a href="#fluid">
               <div className="box">
                 <GiVileFluid />
                 Transmission Fluid

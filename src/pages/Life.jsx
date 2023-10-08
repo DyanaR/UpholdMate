@@ -4,8 +4,10 @@ import { useNavigate } from "react-router-dom";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import life from "../assets/life.png";
 import { BsMouse } from "react-icons/bs";
-import { MdRoofing } from "react-icons/md";
+import { RiMentalHealthLine } from "react-icons/ri";
 import ScrollUp from "../components/ScrollUp";
+import { PiBowlFood } from "react-icons/pi";
+import { GiWeightLiftingUp, GiNightSleep, GiNurseFemale } from "react-icons/gi";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -38,152 +40,159 @@ const Home = () => {
             <h1>LIFE MAINTENANCE</h1>
           </div>
           <div className="intro">
-            <p>
-              There are many elements to owning a car, one of which is
-              maintenance. There are many other elements to a car that need to
-              be changed besides the tiers and oil. Some of which are: Wheel
-              Alignment, Brakes and Rotors, Power Steering, Timing Belt and
-              Transmission Fluid. Below we’ll deep dive into each, and why you
-              should care about them.{" "}
-            </p>
+            <p> </p>
           </div>
           <div className="boxes">
-            <a href="#tree">
+            <a href="#mental">
               <div className="box">
-                <MdRoofing />
-                Tree Limbs
+                <RiMentalHealthLine />
+                Mental Health Check
               </div>
             </a>
-            <a href="#flush">
+            <a href="#diet">
               <div className="box">
-                <MdRoofing />
-                Flush Water Heater
+                <PiBowlFood />
+                Healthy Diet
               </div>
             </a>
-            <a href="#gutters">
+            <a href="#Exercise">
               <div className="box">
-                <MdRoofing />
-                Clean Gutters
+                <GiWeightLiftingUp />
+                Exercise
               </div>
             </a>
-            <a href="#seal">
+            <a href="#sleep">
               <div className="box">
-                <MdRoofing />
-                Seal Driveway
+                <GiNightSleep />
+                Sleep
               </div>
             </a>
-            <a href="#vent">
+            <a href="#annual">
               <div className="box">
-                <MdRoofing />
-                Dry Vent Cleaning
+                <GiNurseFemale />
+                Annual Checkups
               </div>
             </a>
           </div>
           <div className="list">
             <ul>
               <div className="info">
-                <li id="tree">Tree Limbs</li>
+                <li id="mental">Mental Health Checkup</li>
                 <p>
-                  <strong>How often should it done:</strong> All year round.
+                  <strong>How often should it done:</strong> It's advisable to
+                  have a routine mental health checkup at least once a year.
                 </p>
                 <p>
-                  <strong>What is it: </strong>large branches hanging over the
-                  roof.
+                  <strong>What is it: </strong>Assessing emotional well-being
+                  and symptoms with a professiona.
                 </p>
                 <p>
-                  <strong>Why it happens:</strong> It happens naturally because
-                  of the way trees grow.
+                  <strong>Why it happens:</strong> To improve your emotional welbeing.
                 </p>
                 <p>
-                  <strong>What happens if left unaddressed:</strong> Branches
-                  can fall during storms causing damage. Get them cut to prevent
-                  holes in your roof.
+                  <strong>What happens if left unaddressed:</strong> Worsening
+                  of mental health conditions, impact on physical health,
+                  strained relationship, leading to decreased productivity,
+                  absenteeism, or even job loss.
                 </p>
               </div>
               <div className="info">
-                <li id="flush">Flush Water Heater</li>
+                <li id="diet">Healthy Diet</li>
+                <p>
+                  <strong>How often should it done:</strong> It is less about how
+                  often, and more about how much. A heathy adult should eat
+                  about 2,000 to 2,400 calories a day.
+                </p>
+                <p>
+                  <strong>What is it: </strong>Eating healthy foods can
+                  dramatically change your life, in so many ways. To best see
+                  the good changes it is easiest to compare with what happens if
+                  you don’t eat healthy. It’s the difference between a heart
+                  attack at 45 and a heart attack at 60.
+                </p>
+                <p>
+                  <strong>Why it happens:</strong> It happens because of
+                  science, but more simply "you are what you eat". If you eat good
+                  foods, good will come of it, and if you eat bad food, your
+                  body will hurt itself in the long run.
+                </p>
+                <p>
+                  <strong>What happens if left unaddressed:</strong> Everything.
+                  Obesity comes with so many health risks attached to it, but to
+                  say the least: it is that life would not be as enjoyable as it
+                  could be.
+                </p>
+              </div>
+
+              <div className="info">
+                <li id="exercise">Exercise</li>
+                <p>
+                  <strong>How often should it done:</strong> There are different
+                  regiments but the general rule of thumb is three intensive
+                  workouts a week.
+                </p>
+                <p>
+                  <strong>What is it:</strong> Exercise is physical movement,
+                  which is generally strenuous. It improves strength, and the
+                  cardiovascular system.
+                </p>
+                <p>
+                  <strong>Why it happens:</strong> Biology! And also hormones. Our bodies and minds work better when we exert ourselves and it's even more true for exercise.
+                </p>
+                <p>
+                  <strong>What happens if left unaddressed:</strong> Not
+                  exercising can lead to many health related issues such as
+                  cardiovascular diseases and high blood pressure.
+                </p>
+              </div>
+
+              <div className="info">
+                <li id="sleep">Sleep</li>
+                <p>
+                  <strong>How often should it done:</strong> You should get 8
+                  hours of sleep in a day.
+                </p>
+                <p>
+                  <strong>What is it:</strong> When you let your body and mind
+                  rest.
+                </p>
+                <p>
+                  <strong>Why it happens:</strong> It happens because our bodies need energy, and resting helps our body to create energy.
+                </p>
+                <p>
+                  <strong>What happens if left unaddressed:</strong> You’ll end
+                  up going to sleep whether you like it or not, because at some
+                  point your body will override you. Eventually you’ll crash and
+                  burn like all the students after this Hackathon.
+                </p>
+              </div>
+
+              <div className="info">
+                <li id="annual">Annual Checkups</li>
                 <p>
                   <strong>How often should it done:</strong> Once a year.
-                </p>
-                <p>
-                  <strong>What is it:</strong> It’s when a water heater is
-                  completely emptied of water and cold water is sprayed in high
-                  powered spurts at the bottom of the tank.
-                </p>
-                <p>
-                  <strong>Why it happens:</strong> Mineral and gunk build up on
-                  the bottom of the tank, which can cause courssion.
-                </p>
-                <p>
-                  <strong>What happens if left unaddressed:</strong> The water
-                  heater won’t last as long. Flushing it yearly saves you money
-                  in the long run.
-                </p>
-              </div>
-              <div className="info">
-                <li id="gutters">Clean Gutters</li>
-                <p>
-                  <strong>How often should it done:</strong> Twice a year.
-                </p>
-                <p>
-                  <strong>What is it:</strong> Removing build up in gutters.
-                </p>
-                <p>
-                  <strong>Why it happens:</strong> Naturally though falling
-                  leaves, pine needles, etc.
-                </p>
-                <p>
-                  <strong>What happens if left unaddressed:</strong> Erosion to
-                  the gutters, and possible cracks in foundation, walls, and
-                  possibly the chimney.
-                </p>
-              </div>
 
-              <div className="info">
-                <li id="seal">Seal Driveway</li>
-                <p>
-                  <strong>How often should it done:</strong> Every three to 5
-                  years.
                 </p>
                 <p>
-                  <strong>What is it:</strong> When Asphalt is poured over a
-                  driveway sealing up cracks.
-                </p>
-                <p>
-                  <strong>Why it happens:</strong> Over time Cracks and
-                  deformities present themselves in a driveway with use.
-                </p>
-                <p>
-                  <strong>What happens if left unaddressed:</strong> The
-                  driveway will fall into disrepair, and eventually have to be
-                  completely redone. By sealing it every few years you would
-                  save yourself money in the long run.
-                </p>
-              </div>
+                  <strong>What is it:</strong> When you go to see a family medicine practitioner to see if everything is fine with your body. It also allows you to make a connection with your doctor, for when anything health related does come up.
 
-              <div className="info">
-                <li id="vent">Dryer Vent Cleaning</li>
-                <p>
-                  <strong>How often should it done:</strong> Once to twice a
-                  year.
                 </p>
                 <p>
-                  <strong>What is it:</strong> removing built up lint from the
-                  dryer vent.
+                  <strong>Why it happens:</strong> Because it gives the doctor (and yourself) a baseline for your health. If something changes either over time, the doctor (and yourself) can look at your chart and see where and when the changes are coming from.
+
                 </p>
                 <p>
-                  <strong>Why it happens:</strong> Over time lint builds up in
-                  the pipe connected to the dryer, causing a fire hazard.
-                </p>
-                <p>
-                  <strong>What happens if left unaddressed:</strong> It is a
-                  potential fire in the making, since lint is very flammable.
+                  <strong>What happens if left unaddressed:</strong> You won’t get any health care, and something that may seem normal to you, could be a sign of something going on and a doctor would know the signs. 
+
                 </p>
               </div>
             </ul>
           </div>
           <div>
-            <h4>Get Life Insurance Today:</h4>
+            <h4>
+              Protect What Matters Most, Peace of Mind, Gurranteed. Get Life
+              Insurance Today:
+            </h4>
             <a href="https://www.statefarm.com/insurance/life" target="_blank">
               <button className="btn">State Farm</button>
             </a>

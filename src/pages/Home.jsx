@@ -110,7 +110,7 @@ const Home = () => {
                 </p>
                 <p>
                   <strong>What is it:</strong> It’s when a water heater is
-                  completely emptied of water and cold water is sprayed in high
+                  completely emptied of water and cold water is sprayed in, in high
                   powered spurts at the bottom of the tank.
                 </p>
                 <p>
@@ -119,7 +119,7 @@ const Home = () => {
                 </p>
                 <p>
                   <strong>What happens if left unaddressed:</strong> The water
-                  heater won’t last as long. Flushing it yearly saves you money
+                  heater won’t last as long because of courssion. Flushing it yearly saves you money
                   in the long run.
                 </p>
               </div>
@@ -136,9 +136,9 @@ const Home = () => {
                   leaves, pine needles, etc.
                 </p>
                 <p>
-                  <strong>What happens if left unaddressed:</strong> Erosion to
-                  the gutters, and possible cracks in foundation, walls, and
-                  possibly the chimney.
+                  <strong>What happens if left unaddressed:</strong> Erosion of
+                  the gutters, and possible cracks in foundation, walls, and 
+                  chimney of the house.
                 </p>
               </div>
 
@@ -153,7 +153,7 @@ const Home = () => {
                   driveway sealing up cracks.
                 </p>
                 <p>
-                  <strong>Why it happens:</strong> Over time Cracks and
+                  <strong>Why it happens:</strong> Over time cracks and
                   deformities present themselves in a driveway with use.
                 </p>
                 <p>
@@ -186,7 +186,7 @@ const Home = () => {
             </ul>
           </div>
           <div>
-            <h4>Fprget the Hassle, Get Home Insurance Today:</h4>
+            <h4>Forget the Hassle, Get Home Insurance Today:</h4>
             <a
               href="https://www.statefarm.com/insurance/home-and-property/homeowners/determine-home-insurance-coverage"
               target="_blank"
