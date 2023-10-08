@@ -45,12 +45,12 @@ const Home = () => {
           </div>
           <div className="intro">
             <p>
-              Owning a house is a huge responsibility, and there are many little
-              things you have to keep track of. Since there are many things that
-              need to be maintained in a house - we have listed five interesting
-              and important ones. They include Overhanging branches, Flushing
-              the Water Heater, Clean Gutters, Driveway Sealing, and Dryer Vent
-              Cleaning.{" "}
+              There are many elements to owning a car, one of which is
+              maintenance. There are many other elements to a car that need to
+              be changed besides the tiers and oil. Some of which are: Wheel
+              Alignment, Brakes and Rotors, Power Steering, Timing Belt and
+              Transmission Fluid. Below we’ll deep dive into each, and why you
+              should care about them.{" "}
             </p>
           </div>
           <div className="boxes">

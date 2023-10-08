@@ -43,11 +43,12 @@ const Home = () => {
           </div>
           <div className="intro">
             <p>
-              Students often struggle to think of ways to start introductions
-              because they may feel overwhelmed by the need to effectively
-              summarize and contextualize their topic, capture the reader’s
-              interest, and provide a roadmap for the rest of the paper, all
-              while trying to create a strong first impression.{" "}
+              Owning a house is a huge responsibility, and there are many little
+              things you have to keep track of. Since there are many things that
+              need to be maintained in a house - we have listed five interesting
+              and important ones. They include Overhanging branches, Flushing
+              the Water Heater, Clean Gutters, Driveway Sealing, and Dryer Vent
+              Cleaning.{" "}
             </p>
           </div>
           <div className="boxes">
@@ -110,8 +111,8 @@ const Home = () => {
                 </p>
                 <p>
                   <strong>What is it:</strong> It’s when a water heater is
-                  completely emptied of water and cold water is sprayed in, in high
-                  powered spurts at the bottom of the tank.
+                  completely emptied of water and cold water is sprayed in, in
+                  high powered spurts at the bottom of the tank.
                 </p>
                 <p>
                   <strong>Why it happens:</strong> Mineral and gunk build up on
@@ -119,8 +120,8 @@ const Home = () => {
                 </p>
                 <p>
                   <strong>What happens if left unaddressed:</strong> The water
-                  heater won’t last as long because of courssion. Flushing it yearly saves you money
-                  in the long run.
+                  heater won’t last as long because of courssion. Flushing it
+                  yearly saves you money in the long run.
                 </p>
               </div>
               <div className="info">
@@ -137,7 +138,7 @@ const Home = () => {
                 </p>
                 <p>
                   <strong>What happens if left unaddressed:</strong> Erosion of
-                  the gutters, and possible cracks in foundation, walls, and 
+                  the gutters, and possible cracks in foundation, walls, and
                   chimney of the house.
                 </p>
               </div>
