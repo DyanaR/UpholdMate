@@ -7,7 +7,7 @@ import life from "../assets/life.png";
 
 const Homepage = () => {
   const navigate = useNavigate();
-  const [hoverHouse, setHoverHouse] = useState(false);
+  const [hoverHouse, setHoverHouse] = useState(true);
   const [hoverCar, setHoverCar] = useState(false);
   const [hoverLife, setHoverLife] = useState(false);
 
@@ -17,6 +17,7 @@ const Homepage = () => {
         <div className="App">
           <div
             className="house"
+            style={{backgroundColor: hoverHouse ? "#79c3e6" : "transparent"}}
             onClick={() => {
               navigate("home");
             }}
@@ -30,8 +31,8 @@ const Homepage = () => {
             onClick={() => {
               navigate("car");
             }}
-            onMouseEnter={() => setHoverCar(true)}
-            onMouseLeave={() => setHoverCar(false)}
+            onMouseEnter={() => {setHoverCar(true); setHoverHouse(false)}}
+            onMouseLeave={() => {setHoverCar(false); setHoverHouse(true)}}
           >
             <h1>VEHICLE</h1>
           </div>
@@ -40,8 +41,8 @@ const Homepage = () => {
             onClick={() => {
               navigate("life");
             }}
-            onMouseEnter={() => setHoverLife(true)}
-            onMouseLeave={() => setHoverLife(false)}
+            onMouseEnter={() => {setHoverLife(true); setHoverHouse(false)}}
+            onMouseLeave={() => {setHoverLife(false); setHoverHouse(true)}}
           >
             <h1>LIFE</h1>
           </div>
