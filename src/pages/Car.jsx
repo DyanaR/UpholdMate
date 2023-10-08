@@ -259,7 +259,7 @@ const Container = styled.div`
     padding: 2rem;
   }
   .box:hover {
-    background-color: #79c3e6;
+    background-color: #e3b0b7;
     transition: var(--transition);
   }
   .list {

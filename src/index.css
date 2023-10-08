@@ -10,18 +10,12 @@
 
 :root{ 
   --color-white: #fff;
-  --color-primary: #BF4040;
-  --color-primary-variant: #F77777;
   --color-bg: #000000;
   --color-bg-variant: #0B0B13;
   --color-light: rgba(255, 255, 255, 0.6);
 
   --transition: all 400ms ease;
   --transition2: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-
-  --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 98%;
 }
 
 html {

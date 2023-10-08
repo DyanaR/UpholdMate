@@ -129,7 +129,7 @@ const Container = styled.div`
     padding-left: 1rem;
   }
   .life:hover {
-    background-color: #695577;
+    background-color: #72C190;
     text-decoration: underline;
   }
   .life-spline {

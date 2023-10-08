@@ -219,7 +219,7 @@ const Container = styled.div`
     font-size: 2rem;
     padding-left: 2rem;
     padding-top: 1rem;
-    background-color: #e3b0b7;
+    background-color: #72C190;
   }
   .info {
     padding-bottom: 2rem;
@@ -258,7 +258,7 @@ const Container = styled.div`
     padding: 2rem;
   }
   .box:hover {
-    background-color: #79c3e6;
+    background-color: #72C190;
     transition: var(--transition);
   }
   .list {
@@ -266,7 +266,7 @@ const Container = styled.div`
   }
   .house-image {
     height: 100vh;
-    background-color: #e3b0b7;
+    background-color: #72C190;
     padding-top: 12rem;
     text-align: center;
   }
@@ -283,7 +283,6 @@ const Container = styled.div`
     padding: 0.6rem 1.1rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    ${"" /* border: 3px solid var(--color-white); */}
     transition: var(--transition);
   }
 
