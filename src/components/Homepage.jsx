@@ -96,6 +96,7 @@ const Container = styled.div`
     border: 1px solid lightgrey;
     padding-left: 1rem;
     padding-top: 1rem;
+    cursor: pointer;
   }
   .house:hover {
     background-color: #79c3e6;
@@ -112,6 +113,7 @@ const Container = styled.div`
     border: 1px solid lightgrey;
     padding-top: 1rem;
     padding-left: 1rem;
+    cursor: pointer;
   }
   .car:hover {
     background-color: #e3b0b7;
@@ -128,6 +130,7 @@ const Container = styled.div`
     border: 1px solid lightgrey;
     padding-top: 1rem;
     padding-left: 1rem;
+    cursor: pointer;
   }
   .life:hover {
     background-color: #72C190;
